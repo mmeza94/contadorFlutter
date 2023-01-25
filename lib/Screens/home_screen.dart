@@ -1,7 +1,6 @@
 
 
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget{
@@ -15,7 +14,7 @@ class HomeScreen extends StatelessWidget{
 
     int counter = 0 ;
     
-    const TextStyle FontSize30 =  TextStyle(fontSize: 30);
+    const TextStyle fontSize30 =  TextStyle(fontSize: 30);
 
     return  Scaffold(
       appBar: AppBar(
@@ -24,8 +23,8 @@ class HomeScreen extends StatelessWidget{
       body:  Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children:  <Widget>[ const Text('Cantidad de Clicks',style: FontSize30,)
-                              ,Text( '$counter',style: FontSize30)]),
+          children:  <Widget>[ const Text('Cantidad de Clicks',style: fontSize30,)
+                              ,Text( '$counter',style: fontSize30)]),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
       floatingActionButton: FloatingActionButton(
